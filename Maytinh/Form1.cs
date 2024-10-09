@@ -51,7 +51,30 @@ namespace Maytinh
 
         private void btnchia_Click(object sender, EventArgs e)
         {
+            try
+            {
+                // Chuyển giá trị từ TextBox sang số nguyên (int)
+                int so1 = int.Parse(txtsoA.Text);
+                int so2 = int.Parse(txtsoB.Text);
 
+                // Kiểm tra phép chia cho 0
+                if (so2 == 0)
+                {
+                    txtKQ.Text = "Không thể chia cho 0!";
+                }
+                else
+                {
+                    // Thực hiện phép chia
+                    double ketQua = (double)so1 / so2;
+
+                    // Hiển thị kết quả lên TextBox
+                    txtKQ.Text = ketQua.ToString();
+                }
+            }
+            catch (FormatException)
+            {
+                txtKQ.Text = "Vui lòng nhập số hợp lệ!";
+            }
         }
     }
 }
