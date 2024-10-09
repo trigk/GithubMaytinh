@@ -19,7 +19,15 @@ namespace Maytinh
 
         private void btncong_Click(object sender, EventArgs e)
         {
+                // Chuyển giá trị từ TextBox sang số nguyên (int)
+                int so1 = int.Parse(txtsoA.Text);
+                int so2 = int.Parse(txtsoB.Text);
 
+                // Thực hiện phép tính cộng
+                int ketQua = so1 + so2;
+
+                // Hiển thị kết quả lên Label
+                txtKQ.Text = ketQua.ToString();
         }
 
         private void btntru_Click(object sender, EventArgs e)
