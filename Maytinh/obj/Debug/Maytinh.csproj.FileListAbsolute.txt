@@ -1,0 +1,5 @@
+E:\GithubMaytinh\Maytinh\obj\Debug\Maytinh.csproj.AssemblyReference.cache
+E:\GithubMaytinh\Maytinh\obj\Debug\Maytinh.Form1.resources
+E:\GithubMaytinh\Maytinh\obj\Debug\Maytinh.Properties.Resources.resources
+E:\GithubMaytinh\Maytinh\obj\Debug\Maytinh.csproj.GenerateResource.cache
+E:\GithubMaytinh\Maytinh\obj\Debug\Maytinh.csproj.CoreCompileInputs.cache
