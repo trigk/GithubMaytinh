@@ -82,7 +82,8 @@ namespace Maytinh
             }
             catch (FormatException)
             {
-                txtKQ.Text = "Vui lòng nhập số hợp lệ!";
+                txtKQ.Text = "Vui lòng nhập số hợp lệ!" +
+                    "Vui lòng nhập số hợp lệ!Vui lòng nhập số hợp lệ!Vui lòng nhập số hợp lệ!Vui lòng nhập số hợp lệ!Vui lòng nhập số hợp lệ!Vui lòng nhập số hợp lệ!";
             }
         }
     }
