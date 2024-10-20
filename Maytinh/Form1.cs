@@ -20,8 +20,8 @@ namespace Maytinh
         private void btncong_Click(object sender, EventArgs e)
         {
                 // Chuyển giá trị từ TextBox sang số nguyên (int)
-                int so1 = int.Parse(txtsoA.Text);
-                int so2 = int.Parse(txtsoB.Text);
+                int so1 = int.Parse(txtso1.Text);
+                int so2 = int.Parse(txtso2.Text);
 
                 // Thực hiện phép tính cộng
                 int ketQua = so1 + so2;
@@ -33,10 +33,10 @@ namespace Maytinh
         private void btntru_Click(object sender, EventArgs e)
         {
                 double number1, number2;
-            if (double.TryParse(txtNumber1.Text, out number1) && double.TryParse(txtNumber2.Text, out number2))
+            if (double.TryParse(txtso1.Text, out number1) && double.TryParse(txtso2.Text, out number2))
             {
                 double result = number1 - number2;
-                txtResult.Text = result.ToString();
+                txtKQ.Text = result.ToString();
             }
             else
             {
@@ -63,8 +63,8 @@ namespace Maytinh
             try
             {
                 // Chuyển giá trị từ TextBox sang số nguyên (int)
-                int so1 = int.Parse(txtsoA.Text);
-                int so2 = int.Parse(txtsoB.Text);
+                int so1 = int.Parse(txtso1.Text);
+                int so2 = int.Parse(txtso2.Text);
 
                 // Kiểm tra phép chia cho 0
                 if (so2 == 0)
